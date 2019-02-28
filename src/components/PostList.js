@@ -19,7 +19,7 @@ class PostList extends React.Component {
                             <h2>{post.title}</h2>
                             <p>{post.body}</p>
                         </div> 
-                        <UserHeader userID={post.userId}/>
+                        <UserHeader userId={post.userId}/>
                     </div>
                 </div>
         )
